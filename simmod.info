@@ -1,0 +1,5 @@
+name = SimMod
+description = Simulationskonfiguration enthält noch keine Simulationsmodell
+core = 7.x
+version = 0.1
+package = andylicht

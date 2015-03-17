@@ -1,0 +1,16 @@
+<?php
+//Funktion legt Administratoroberfläche an
+//Mit diesen Elementen können die Defaulteinstellungen für die Simulation konfiguriert werden
+function simmod_menu()
+{
+    $items = array();
+    $items['admin/config/simulationsmodelle'] = array(
+        'title' => 'Simulationsmodelle',
+        'description' => 'Simulationsmodelle',
+        'position' => 'right',
+        'weight' => -10,
+        //'page callback' => 'system_admin_menu_block_page',
+        'access arguments' => array('access administration pages'),
+    );
+    return $items;
+}
